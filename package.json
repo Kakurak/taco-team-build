@@ -9,18 +9,26 @@
   "main": "taco-team-build.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/taco-team-build.git"
-   },
+    "url": "git+https://github.com/Kakurak/taco-team-build.git"
+  },
   "bugs": {
-    "url": "https://github.com/Microsoft/taco-team-build/issues"
+    "url": "https://github.com/Kakurak/taco-team-build/issues"
   },
   "license": "MIT",
   "bin": {
-    "taco-team-build": "./bin/taco-team-build"
+    "taco-team-build": "bin/taco-team-build"
   },
   "dependencies": {
-     "q": "^1.2.0",
-     "glob": "^5.0.3",
-     "semver": "^5.0.3"
-  }
+    "q": "^1.2.0",
+    "glob": "^5.0.3",
+    "semver": "^5.0.3"
+  },
+  "homepage": "https://github.com/Kakurak/taco-team-build#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
 }
